@@ -26,7 +26,6 @@ nav {
 }
 
 .nav-item {
-    list-style: none;
     height: 100%;
     display: flex;
     align-items: center;
@@ -35,14 +34,11 @@ nav {
 .nav-item a {
     font-size: 14px;
     font-weight: 600;
-    text-decoration: none;
     color: #8B8B8B;
 
 }
 .nav-item a:hover {
-    text-decoration: none;
     color: black;
-
 }
 
 .nav-item:hover {
@@ -68,4 +64,64 @@ nav .left {
 /* nav right*/
 nav .right {
     justify-content: flex-end;
+}
+
+
+/* footer */
+footer {
+    color:  #fff;
+    background-color: #000;
+    width: 100%;
+    padding: 5% 10%;
+}
+
+footer .container {
+    width: 80%; 
+    margin: 0 auto;
+}
+
+
+/* top footer */
+.top-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    margin: 2em auto;
+}
+
+.foot-item a {
+    color: #ffffffbd;
+}
+.foot-item a:hover {
+    color: #ffffff;
+}
+
+.foot-item {
+    margin-bottom: 0.4em;
+}
+
+.foot-container-item h2 {
+    margin-bottom: 0.8em;
+    font-size: 22px;
+}
+
+.foot-container-item ul {
+    margin-bottom: 2em;
+    font-size: 16px;
+}
+
+hr {
+    width: 10%;
+}
+
+
+/* regole seleziona lingua */
+#language {
+    width: 20%;
+    margin-top: 2em;
+    color: #b8b8b88f;
+}
+
+.fa-globe {
+    padding-right: 0.4em;
 }
