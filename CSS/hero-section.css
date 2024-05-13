@@ -36,6 +36,9 @@
     font-size: 18px;
 }
 
+#left-hero a {
+    color: black;
+}
 
 #left-hero span {
     font-size: 16px;
@@ -43,5 +46,5 @@
 
 .fa-arrow-down {
     margin-top: 1em;
-    font-size: 80px;
+    font-size: 70px;
 }

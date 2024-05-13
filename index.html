@@ -18,8 +18,9 @@
 
     <!-- css -->
     <link rel="stylesheet" href="CSS/style.css">
-    <link rel="stylesheet" href="CSS/nav-footer.css">
     <link rel="stylesheet" href="CSS/hero-section.css">
+    <link rel="stylesheet" href="CSS/main.css">
+    <link rel="stylesheet" href="CSS/nav-footer.css">
 
 </head>
 <body>
@@ -94,7 +95,7 @@
 
                     <br>
 
-                    <i class="fa-solid fa-arrow-down"></i>
+                    <a href="index.html/plan-section"><i class="fa-solid fa-arrow-down"></i></a>
 
                 </div>
 
@@ -105,7 +106,97 @@
     </header>
 
     <main>
-        <div>okkey</div>
+        <!-- contenitore main 1 -->
+        <div class="main-container">
+
+            <!-- sez-1 -->
+            <section id="plan-section">
+                <div id="plan-container">
+                    <h2>Trova il piano business che fa per te</h2>
+                    
+                    <div id="fatturazione">
+
+                        <!-- fatturazione mensile -->
+                        <div class="inp-fatturazione">
+                            <input type="radio" id="fatturazione-mensile" value="fatturazione-mensile" checked/>
+                            <label for="fatturazione-mensile">fatturazione-mensile</label>
+                        </div>
+                        
+                        <!-- fatturazione annuale -->
+                        <div class="inp-fatturazione">
+                            <input type="radio" id="fatturazione-annuale" value="fatturazione-annuale"/>
+                            <label for="fatturazione-annuale">fatturazione-annuale</label>
+                        </div>
+
+                    </div>
+
+                    <div id="container-plancard">
+
+                        <!-- card 1 -->
+                        <div class="plancard">
+
+                            <!-- head -->
+                            <div class="head-card">
+                                <i class="fa-solid fa-user"></i>
+                                Singolo
+                            </div>
+
+                            <!-- body -->
+                            <div class="body-card">
+                                <h3>Professional</h3>
+
+                                <span class="price">€ 12.00</span>
+                                <span class="frequenza">/mese</span>
+
+                                
+                                <div class="features-container">
+                                    <div class="feature">
+                                        <i class="fas fa-user"></i>
+                                        <span>1 utente</span>
+                                    </div>
+                                    <div class="feature">
+                                        <i class="fa-solid fa-folder"></i>
+                                        <span>5 TB di spazio di archiviazione sicuro</span>
+                                    </div>
+                                    <div class="feature">
+                                        <i class="fa-solid fa-share-nodes"></i>
+                                        <span>Funzioni di produttività premium e condivisione file semplice e sicura</span>
+                                    </div>
+                                </div>
+
+                                <button class="but-gen main-button card-button"> Prova gratuita per 30 giorni</button>
+
+                                <span>oppure <a class="link-plan" href="#">acquista ora</a></span>
+
+                                <hr>
+
+                                <div class="features-container">
+                                    <div class="feature">
+                                        <i class="fa-solid fa-check"></i>
+                                        <span>1 utente</span>
+                                    </div>
+                                    <div class="feature">
+                                        <i class="fa-solid fa-check"></i>
+                                        <span>5 TB di spazio di archiviazione sicuro</span>
+                                    </div>
+                                </div>
+                            </div>
+
+
+
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
+
+
+
+
+
+        </div>
+        
     </main>
 
     <footer>

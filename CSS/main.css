@@ -1,0 +1,96 @@
+/* regole generali main */
+.main-container {
+    width: 72%;
+    margin: 12em auto;
+
+    /* db */
+    height: 800px;
+}
+
+#plan-container h2 {
+    font-size: 32px;
+}
+
+/* fatturazione */
+
+#fatturazione {
+    margin: 2em 0;
+    display: flex;
+    gap: 4em;
+}
+
+input[type='radio'] {
+    accent-color: #4400ff;
+}
+
+
+/* card plan */
+#container-plancard {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 2em;
+}
+
+.plancard {
+    border: 1px solid black;
+}
+
+.head-card {
+    border-bottom: 1px solid black;
+    text-align: center;
+    padding: 1em 0;
+}
+
+.body-card {
+    padding: 2em;
+}
+
+.body-card h3 {
+    font-size: 24px;
+}
+
+.body-card>span{
+    font-size: 16px;
+    display: block;
+}
+
+.price {
+    font-weight: 600;
+    margin: 1.8em 0 0.4em;
+}
+
+.frequenza {
+    color: rgba(0, 0, 0, 0.493);
+    margin-bottom: 2.8em;
+}
+
+.feature {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    font-size: 14px;
+    margin: 2em 0;
+}
+
+.feature i {
+    font-size: 16px;
+}
+
+.card-button {
+    width: 100%;
+    margin: 2.4em 0;
+}
+
+.link-plan {
+    color: blueviolet;
+    text-decoration: underline;
+}
+
+hr {
+    margin: 2.8em 0;
+}
+
+.fa-check {
+    color: blue;
+}

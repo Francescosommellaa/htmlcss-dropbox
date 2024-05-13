@@ -36,12 +36,5 @@ a {
 }
 
 li {
-    list-style: none;
-}
-
-main div{
-    height: 500px;
-    width: 100%;
-    background: #fff;
-    z-index: 900;
+    list-style: none ;
 }
