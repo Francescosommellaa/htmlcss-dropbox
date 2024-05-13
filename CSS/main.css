@@ -4,12 +4,14 @@
     margin: 12em auto;
 }
 
+
+/* sezione 1 */
 #plan-container h2 {
     font-size: 32px;
 }
 
-/* fatturazione */
 
+/* fatturazione */
 #fatturazione {
     margin: 2em 0;
     display: flex;
@@ -18,10 +20,10 @@
 
 input[type='radio'] {
     accent-color: #4400ff;
+    vertical-align: middle;
+
 }
 
-
-/* card plan */
 #container-plancard {
     display: flex;
     justify-content: space-between;
@@ -34,6 +36,14 @@ input[type='radio'] {
     border: 1px solid black;
 }
 
+.vertical-card {
+    width: calc(100% / 3);
+}
+
+.horizontal-card {
+    width: 100%;
+}
+
 .head-card {
     border-bottom: 1px solid black;
     text-align: center;
@@ -42,6 +52,14 @@ input[type='radio'] {
 
 .body-card {
     padding: 2em;
+}
+
+.full-width {
+    display: flex;
+    justify-content: space-between;
+    align-items: first baseline;
+    align-self: start;
+    gap: 8em;
 }
 
 .body-card h3 {
@@ -92,3 +110,58 @@ hr {
 .fa-check {
     color: blue;
 }
+
+#horizontal-card-left h3 {
+    margin: 0 0 0.6em;
+}
+
+#horizontal-card-left p {
+    margin: 2em 0 0;
+}
+
+
+/* sezione 2 */
+#partner-dropbox {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    gap: 8em;
+    margin: 12em 0;
+}
+
+#partner-dropbox .img-partner {
+    background-image: url(../img/partner.png);
+    background-size: cover;
+    width: 100%;
+    height: 40em;
+}
+.right-partner {
+    width: 40%;
+}
+
+.right-partner h3{
+    font-size: 22px;
+    font-weight: 800;
+    margin-top: 3em;
+}
+
+.right-partner p {
+    font-size: 16px;
+    margin: 0.4em 0 0.6em;
+}
+
+.right-partner button {
+    font-size: 16px;
+    margin: 0.4em 0;
+    background-color: #fff;
+    border: 1px solid black ;
+}
+
+.right-partner button:hover {
+    background-color: #fff;
+    border: 2px solid black;
+    border-bottom: 1px solid rgb(156, 156, 156);
+}
+
+
+/* sezione 3 */
