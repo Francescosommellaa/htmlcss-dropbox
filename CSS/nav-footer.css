@@ -94,6 +94,7 @@ footer .container {
 }
 .foot-item a:hover {
     color: #ffffff;
+    text-decoration: underline;
 }
 
 .foot-item {
@@ -120,6 +121,7 @@ hr {
     width: 20%;
     margin-top: 2em;
     color: #b8b8b88f;
+    cursor: pointer;
 }
 
 .fa-globe {
