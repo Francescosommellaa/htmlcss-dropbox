@@ -1,0 +1,46 @@
+/* regole generali hero */
+#hero-section {
+    width: 80%;
+    margin: 60px auto;
+    padding: 4em 0;
+}
+
+#hero-section h1 {
+    font-size: 88px;
+    font-weight: 800;
+    line-height: 100%;
+}
+
+/* sezione inferiore */
+#conteiner-hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: 4em auto;
+}
+
+#conteiner-hero img {
+    width: 50%;
+}
+
+
+#left-hero p {
+    font-size: 18px;
+    margin-right: 4em;
+    margin-bottom: 2em; 
+}
+
+#left-hero button {
+    margin-bottom: 2em; 
+    font-size: 18px;
+}
+
+
+#left-hero span {
+    font-size: 16px;
+}
+
+.fa-arrow-down {
+    margin-top: 1em;
+    font-size: 80px;
+}

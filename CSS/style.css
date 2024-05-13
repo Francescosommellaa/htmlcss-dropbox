@@ -5,10 +5,16 @@
     font-family: Open-Sans, Arial, Helvetica, sans-serif;
 }
 
+header {
+    background-color: #B4D0E7;
+    height: 60vh;
+    width: 100%;
+}
+
 .but-gen {
     box-shadow: none;
     border: none;
-    padding: 0.3em 1.2em;
+    padding: 0.5em 1.6em;
 }
 
 .main-button {
@@ -20,7 +26,7 @@
 }
 
 .main-button:hover {
-    background-color: #B4D0E7;
+    background-color: #5aa5e2;
     color: #000;
 }
 
@@ -30,4 +36,11 @@ a {
 
 li {
     list-style: none;
+}
+
+main div{
+    height: 500px;
+    width: 100%;
+    background: #fff;
+    z-index: 900;
 }
