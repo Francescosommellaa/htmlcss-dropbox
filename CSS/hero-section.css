@@ -19,15 +19,16 @@
     margin: 4em auto;
 }
 
+/* destra */
 #conteiner-hero img {
     width: 50%;
 }
 
-
+/* sinistra */
 #left-hero p {
     font-size: 18px;
     margin-right: 4em;
-    margin-bottom: 2em; 
+    margin-bottom: 2em;
 }
 
 #left-hero button {
