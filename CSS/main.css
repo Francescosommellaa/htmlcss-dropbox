@@ -2,9 +2,6 @@
 .main-container {
     width: 72%;
     margin: 12em auto;
-
-    /* db */
-    height: 800px;
 }
 
 #plan-container h2 {
@@ -28,8 +25,9 @@ input[type='radio'] {
 #container-plancard {
     display: flex;
     justify-content: space-between;
-    align-items: flex-start;
+    align-items: stretch;
     gap: 2em;
+    margin-bottom: 2em;
 }
 
 .plancard {
