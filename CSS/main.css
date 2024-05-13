@@ -150,19 +150,6 @@ hr {
     margin: 0.4em 0 0.6em;
 }
 
-.right-partner button {
-    font-size: 16px;
-    margin: 0.4em 0;
-    background-color: #fff;
-    border: 1px solid black ;
-}
-
-.right-partner button:hover {
-    background-color: #fff;
-    border: 2px solid black;
-    border-bottom: 1px solid rgb(156, 156, 156);
-}
-
 
 /* sezione 3 */
 #container-operation {
@@ -185,4 +172,73 @@ hr {
     font-size: 18px;
     font-weight: 800;
     margin-bottom: 1.4em;
+}
+
+
+/* sezione 4-5 */
+#team {
+    margin: 12em 0;
+    width: 40%;
+}
+
+#team h2{
+    margin-bottom: 1.4em;
+}
+
+#container-in-azienda {
+   background-color: #B4D0E7;
+   width: 100%;
+}
+
+.in-azienda {
+    width: 72%;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;    
+    margin: 0 auto;
+    padding: 8em 0;
+    color: #61082B;
+}
+
+.title-in-azienda {
+    width: 40%;
+}
+
+
+/* sezione 6 */
+.faq-hr {
+    width: 100%;
+    color: black;
+}
+
+.faq-item {
+    font-size: 14px;
+    font-weight: 600;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 4em;
+}
+
+.open-faq {
+    margin-top: 1.4em;
+    width: 60%;
+    color: rgba(49, 49, 49, 0.712);
+    display: none;
+}
+
+.container-faq-item:hover .open-faq {
+    display: block;
+}
+
+.container-faq-item:hover .fa-chevron-down {
+    display: none;
+}
+
+.fa-chevron-up {
+    display: none;
+}
+
+.container-faq-item:hover .fa-chevron-up{
+    display: inline-block;
 }
